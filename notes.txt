@@ -1,0 +1,13 @@
+What I have learned so far:
+
+The slice() method returns a shallow copy of a portion of an array into a new array object selected 
+from start to end ( end not included) where start and end represent the index of items in that array.
+
+In my own words: when you use .slice on an array, it splits the array items into a new array with a start and end
+in the main.js file, start and end are defined as variables.
+
+These variables set the start and end of the array for the pagination.
+
+
+Front-End centric methods of pagination covered in this tutorial
+For back end, there is also a node.js tutorial available
