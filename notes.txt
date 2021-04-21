@@ -11,3 +11,9 @@ These variables set the start and end of the array for the pagination.
 
 Front-End centric methods of pagination covered in this tutorial
 For back end, there is also a node.js tutorial available
+
+---------------  Review -------------------
+Look up the following methods and their uses:
+
+document.querySelector
+this

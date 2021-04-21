@@ -68,8 +68,10 @@ function PaginationButton(page, items) {
     current_page = page;
     DisplayList(items, list_element, rows, current_page);
 
-    // let current_btn = document.querySelector(".pagenumbers button.active");
-    // current_btn.classList.remove("active");
+    let current_btn = document.querySelector(".pagenumbers button.active");
+    current_btn.classList.remove("active");
+
+    button.classList.add("active");
   });
 
   return button;
